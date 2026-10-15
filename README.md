@@ -19,7 +19,10 @@ GitHub Pages branch publishing supports the repository root or a `docs` folder. 
 - `index.html`: page content, links, and metadata.
 - `styles.css`: responsive layout and colors.
 - `assets/hydrangea-house-logo.jpg`: supplied logo.
-- `assets/instagram-reference.jpg`: supplied Instagram screenshot, displayed through SVG viewports for three floral previews.
+- `assets/thoughtfully-arranged.png`: supplied blue flower drawing.
+- `assets/beautiful-blooms.png`: supplied orange flower drawing.
+- `assets/made-for-you.png`: supplied yellow flower drawing.
+- `assets/instagram-reference.jpg`: original Instagram reference, retained for reference.
 
 All CSS and image links are relative so they work under the GitHub Pages project path. Edit the root files and commit to `main` to update the site after Pages is enabled.
 
@@ -27,4 +30,4 @@ All CSS and image links are relative so they work under the GitHub Pages project
 
 Instagram: [@_hydrangeahouse](https://www.instagram.com/_hydrangeahouse/). The HoneyBook URL in the supplied screenshot is truncated, so inquiry buttons lead to Instagram until the full booking URL is available.
 
-The gallery comes from a 280 × 600 screenshot. Replace it with original photos for sharper previews.
+Gallery images are stored unchanged in `assets/` and displayed in full with `object-fit: contain`.
