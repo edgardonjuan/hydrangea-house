@@ -2,3 +2,5 @@
 
 /* About the person behind Hydrangea House. */
 .about-section{display:grid;grid-template-columns:280px minmax(0,1fr);align-items:center;gap:75px;padding-block:75px;border-bottom:1px solid var(--line)}.about-visual{position:relative;padding:10px;border:1px solid #b5c2ab;border-radius:50%;max-width:280px;justify-self:center}.about-visual img{width:100%;height:auto;border-radius:50%}.about-copy .eyebrow{margin-bottom:18px}.about-copy h2{font-size:49px}.about-copy>p:not(.eyebrow){font-size:14px;line-height:1.9;color:var(--muted);max-width:570px;margin:22px 0 0}.about-signature{display:block;margin-top:25px;font:italic 19px var(--serif);color:#6b8162}@media(max-width:1000px){.about-section{grid-template-columns:220px minmax(0,1fr);gap:40px}.about-copy h2{font-size:42px}}@media(max-width:700px){.about-section{grid-template-columns:1fr;gap:30px;padding-block:48px}.about-visual{max-width:190px}.about-copy h2{font-size:40px}.about-copy>p:not(.eyebrow){font-size:13px}.about-copy .eyebrow{font-size:9px}}
+
+.about-copy>p.about-story-note{font-size:11px;font-style:italic;margin-top:16px;color:var(--muted)}
